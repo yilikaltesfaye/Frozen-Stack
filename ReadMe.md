@@ -35,3 +35,37 @@
    ```bash
    git clone https://github.com/yourusername/frozen-stack.git  
    cd frozen-stack  
+
+2. Navigate to the desired project folder (e.g., web/frontend/react/project-1).
+
+3. Follow the setup instructions within each project's folder to get started.
+
+---
+
+## 🛠️ Technologies  
+
+This repository includes projects built using a variety of technologies, including:
+
+- **Frontend Frameworks**: React, Vue, Svelte, etc.
+- **Backend Frameworks**: Node.js, Django, Laravel, etc.
+- **Full-Stack Stacks**: MERN, MEAN, Next.js, etc.
+- **Mobile Development**: React Native, Flutter, etc.
+- **Desktop Development**: Electron, and other frameworks.
+- **Game Development**: Unity, Unreal Engine, Godot, etc.
+- **Blockchain**: Ethereum, Solana, and more.
+- **Machine Learning & AI**: TensorFlow, PyTorch, and others.
+- **Enterprise Systems**: ERP, CRM, and other enterprise-level systems.
+- **Government Solutions**: Civic technology and public service software.
+- **Security**: Encryption, penetration testing, and security protocols.
+- **IoT & Embedded Systems**: Microcontrollers, IoT devices, etc.
+- **VR & AR**: Oculus, HTC Vive, AR/VR apps, etc.
+- **Quantum Computing**: Quantum algorithms and quantum cryptography.
+- **Cross-Platform**: Windows, macOS, Linux, PlayStation, Xbox, etc.
+
+---
+
+## 📫 Contact  
+
+For feedback or inquiries:  
+- GitHub: [yilikaltesfaye](https://github.com/yilikaltesfaye)  
+- LinkedIn: [Yilikal Tesfaye](https://www.linkedin.com/in/yilikaltesfayekebede/)
