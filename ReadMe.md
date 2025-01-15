@@ -33,7 +33,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/frozen-stack.git  
+   git clone https://github.com/yilikaltesfaye/frozen-stack.git  
    cd frozen-stack  
 
 2. Navigate to the desired project folder (e.g., web/frontend/react/project-1).
