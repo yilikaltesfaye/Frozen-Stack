@@ -44,23 +44,42 @@
 
 ## 🛠️ Technologies  
 
-This repository includes projects built using a variety of technologies, including:
+This repository includes projects built using a variety of technologies, organized by category:
 
-- **Frontend Frameworks**: React, Vue, Svelte, etc.
-- **Backend Frameworks**: Node.js, Django, Laravel, etc.
-- **Full-Stack Stacks**: MERN, MEAN, Next.js, etc.
-- **Mobile Development**: React Native, Flutter, etc.
-- **Desktop Development**: Electron, and other frameworks.
-- **Game Development**: Unity, Unreal Engine, Godot, etc.
-- **Blockchain**: Ethereum, Solana, and more.
-- **Machine Learning & AI**: TensorFlow, PyTorch, and others.
-- **Enterprise Systems**: ERP, CRM, and other enterprise-level systems.
+- **Web**: Projects related to building websites and web applications.  
+  - **Frontend**: React, Vue, Svelte, and other UI frameworks.  
+  - **Backend**: Node.js, Django, Laravel, and other backend technologies.  
+  - **Full Stack**: MERN, MEAN, Next.js, and other full-stack solutions.  
+  - **Static Websites**: Simple HTML, CSS, and JavaScript websites.  
+  - **Web Scraping**: BeautifulSoup, Scrapy, Puppeteer, and other web scraping tools.
+
+- **Mobile**: Mobile applications using frameworks like React Native, Flutter, etc.
+
+- **Desktop**: Applications for desktop platforms using Electron and other frameworks.
+
+- **Games**: Game development projects using engines like Unity, Unreal Engine, and Godot.
+
+- **Automation**: Scripts and bots for automating tasks and workflows.
+
+- **Machine Learning & AI**: Projects using TensorFlow, PyTorch, and other machine learning libraries.
+
+- **Enterprise Systems**: ERP, CRM, and other enterprise-level solutions.
+
 - **Government Solutions**: Civic technology and public service software.
-- **Security**: Encryption, penetration testing, and security protocols.
-- **IoT & Embedded Systems**: Microcontrollers, IoT devices, etc.
-- **VR & AR**: Oculus, HTC Vive, AR/VR apps, etc.
-- **Quantum Computing**: Quantum algorithms and quantum cryptography.
-- **Cross-Platform**: Windows, macOS, Linux, PlayStation, Xbox, etc.
+
+- **Cross-Platform**: Applications built for multiple platforms, including Windows, macOS, Linux, PlayStation, Xbox, and more.
+
+- **Blockchain**: Ethereum, Solana, and other blockchain technologies, including smart contracts and DApps.
+
+- **Embedded Systems & IoT**: Microcontrollers, IoT devices, and related embedded systems.
+
+- **Virtual Reality (VR)**: Oculus, HTC Vive, and other VR applications.
+
+- **Quantum Computing**: Projects related to quantum algorithms and cryptography.
+
+- **Security & Cryptography**: Encryption, penetration testing, and cybersecurity projects.
+
+- **Simulation Software**: Projects simulating various domains like flight, economics, biology, and more.
 
 ---
 
