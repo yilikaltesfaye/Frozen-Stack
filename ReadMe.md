@@ -1,6 +1,6 @@
-# **PatientPath** 🏥
+# **CarePulse** 🏥
 
-**PatientPath** is a cutting-edge healthcare platform designed to streamline essential processes like patient registration, appointment scheduling, and medical records management. This project demonstrates how to implement advanced features, including complex forms, SMS notifications, and more, using modern web development tools.
+**CarePulse** is a cutting-edge healthcare platform designed to streamline essential processes like patient registration, appointment scheduling, and medical records management. This project demonstrates how to implement advanced features, including complex forms, SMS notifications, and more, using modern web development tools.
 
 ---
 
@@ -44,11 +44,11 @@
    <!-- cd healthcare   -->
    <!-- ``` -->
 
-2. **Switch to the `web/fullstack/PatientPath` branch**:
+2. **Switch to the `web/fullstack/CarePulse` branch**:
 
    ```bash
    git fetch --all
-   git checkout web/fullstack/PatientPath
+   git checkout web/fullstack/CarePulse
    ```
 
 3. **Install dependencies**:
