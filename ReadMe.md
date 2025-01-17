@@ -1,98 +1,83 @@
-# Frozen Stack ❄️
+# **PatientPath** 🏥
 
-**Frozen Stack** is a comprehensive repository of projects encompassing every digital solution that can be built using code. This includes everything from web and mobile applications to enterprise systems, government solutions, games, AI, machine learning, blockchain, IoT, and much more. The repository spans a wide range of technologies, platforms, and domains, showcasing the diversity of what can be created with code, regardless of programming language or application type.
-
----
-
-## Categories:
-
-1. **Web**: Projects related to building websites and web applications (Frontend, Backend, Full Stack, Static Sites, Web Scraping).
-
-   - **Frontend**: Projects focusing on building user interfaces using frameworks like React, Vue, Svelte, and others.
-   - **Backend**: Server-side applications and APIs using Node.js, Django, Laravel, and other backend technologies.
-   - **Full Stack**: End-to-end applications built using stacks like MERN, MEAN, Next.js, etc.
-   - **Static Websites**: Simple HTML, CSS, and JavaScript websites.
-   - **Web Scraping**: Projects for scraping data from websites using tools like BeautifulSoup, Scrapy, or Puppeteer.
-
-2. **Mobile**: Mobile applications using React Native, Flutter, and other frameworks.
-3. **Desktop**: Applications built for desktop platforms using Electron and other frameworks.
-4. **Games**: Projects focused on game development using engines like Unity, Unreal Engine, and Godot.
-5. **Automation**: Scripts and bots for automating tasks and workflows.
-6. **Machine Learning & AI**: Projects involving machine learning models, deep learning, and AI applications using TensorFlow, PyTorch, etc.
-7. **Enterprise Systems**: Solutions for enterprise-level applications like ERP and CRM systems.
-8. **Government Solutions**: Applications focused on civic technology and public services.
-9. **Cross-Platform**: Applications built for multiple platforms including Windows, macOS, Linux, PlayStation, Xbox, etc.
-10. **Blockchain**: Projects related to blockchain, including smart contracts, DApps, and cryptocurrency applications.
-11. **Embedded Systems & IoT**: Projects for microcontrollers, IoT devices, and smart systems.
-12. **Virtual Reality (VR)**: Projects involving VR applications and experiences for platforms like Oculus and HTC Vive.
-13. **Quantum Computing**: Quantum-related projects focusing on algorithms and cryptography.
-14. **Security & Cryptography**: Projects in encryption, cybersecurity, and ethical hacking.
-15. **Simulation Software**: Software for simulating various domains like flight, economics, and biology.
+**PatientPath** is a cutting-edge healthcare platform designed to streamline essential processes like patient registration, appointment scheduling, and medical records management. This project demonstrates how to implement advanced features, including complex forms, SMS notifications, and more, using modern web development tools.
 
 ---
 
-## 🌟 How to Use
+## 🚀 **Features**
 
-1. Clone the repository:
+- **Patient Registration:** Effortlessly register and manage patient details.
+- **Appointment Scheduling:** Simplify booking and scheduling for patients and healthcare providers.
+- **Medical Records Management:** Securely manage and access patient medical histories.
+- **SMS Notifications:** Notify patients and staff with timely SMS reminders.
+- **Admin Dashboard:** Manage platform settings and view key data with ease.
+- **Secure Backend:** Utilize Appwrite and Sentry for a secure and reliable application.
+
+---
+
+## 🌟 **Tech Stack**
+
+- **Frontend:** Next.js
+- **Backend:** Appwrite
+- **Database:** Appwrite's integrated database
+- **Notifications:** SMS integration
+- **Error Tracking:** Sentry
+
+---
+
+## 🗂️ **Project Structure**
+
+- **/pages**: Handles the application routes (Home, Registration, Appointments, etc.)
+- **/components**: Reusable UI components for better modularity.
+- **/styles**: CSS and styling resources.
+- **/lib**: Utilities and helper functions (e.g., SMS integration).
+- **/api**: API routes for backend operations (e.g., patient data storage).
+
+---
+
+## **Setup & Installation**
+
+1. **Clone the repository**:
+
+   <!-- ```bash -->
+   <!-- git clone https://github.com/adrianhajdin/healthcare.git -->
+   <!-- cd healthcare   -->
+   <!-- ``` -->
+
+2. **Switch to the `web/fullstack/PatientPath` branch**:
 
    ```bash
-   git clone https://github.com/yilikaltesfaye/frozen-stack.git
-   cd frozen-stack
+   git fetch --all
+   git checkout web/fullstack/PatientPath
    ```
 
-2. Switch to the branch for the project you want to work on. For example, if you want to explore a React-based frontend project, switch to the corresponding branch:
+3. **Install dependencies**:
 
    ```bash
-   git checkout web/frontend/react-project-1
+   npm install
    ```
 
-3. Follow the setup instructions provided within each project's branch (or README within the project) to get started.
+4. **Set up environment variables**:  
+   Create a `.env.local` file in the root directory and add the following:
 
-4. You can deploy the projects to platforms like Vercel, Netlify, or GitHub Pages directly from the respective branches.
+   ```env
+   NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_appwrite_project_id
+   NEXT_PUBLIC_APPWRITE_ENDPOINT=your_appwrite_endpoint
+   SENTRY_DSN=your_sentry_dsn
+   SMS_API_KEY=your_sms_api_key
+   ```
 
----
+5. **Run the development server**:
 
-## 🛠️ Technologies
+   ```bash
+   npm run dev
+   ```
 
-This repository includes projects built using a variety of technologies, organized by category:
-
-- **Web**: Projects related to building websites and web applications.
-
-  - **Frontend**: React, Vue, Svelte, and other UI frameworks.
-  - **Backend**: Node.js, Django, Laravel, and other backend technologies.
-  - **Full Stack**: MERN, MEAN, Next.js, and other full-stack solutions.
-  - **Static Websites**: Simple HTML, CSS, and JavaScript websites.
-  - **Web Scraping**: BeautifulSoup, Scrapy, Puppeteer, and other web scraping tools.
-
-- **Mobile**: Mobile applications using frameworks like React Native, Flutter, etc.
-- **Desktop**: Applications for desktop platforms using Electron and other frameworks.
-- **Games**: Game development projects using engines like Unity, Unreal Engine, and Godot.
-- **Automation**: Scripts and bots for automating tasks and workflows.
-- **Machine Learning & AI**: Projects using TensorFlow, PyTorch, and other machine learning libraries.
-- **Enterprise Systems**: ERP, CRM, and other enterprise-level solutions.
-- **Government Solutions**: Civic technology and public service software.
-- **Cross-Platform**: Applications built for multiple platforms, including Windows, macOS, Linux, PlayStation, Xbox, and more.
-- **Blockchain**: Ethereum, Solana, and other blockchain technologies, including smart contracts and DApps.
-- **Embedded Systems & IoT**: Microcontrollers, IoT devices, and related embedded systems.
-- **Virtual Reality (VR)**: Oculus, HTC Vive, and other VR applications.
-- **Quantum Computing**: Projects related to quantum algorithms and cryptography.
-- **Security & Cryptography**: Encryption, penetration testing, and cybersecurity projects.
-- **Simulation Software**: Projects simulating various domains like flight, economics, biology, and more.
+6. **Build for production**:
+   ```bash
+   npm run build
+   ```
 
 ---
 
-<!-- ## 🚀 Live Demos -->
-
-<!-- Here are a few live demos you can explore: -->
-
-<!-- - **React Project 1**: [Live Demo Link](https://react-project1.example.com) -->
-<!-- - **Unity 3D Game**: [Live Demo Link](https://unity-game.example.com) -->
-
-<!-- --- -->
-
-## 📫 Contact
-
-For feedback or inquiries:
-
-- GitHub: [yilikaltesfaye](https://github.com/yilikaltesfaye)
-- LinkedIn: [Yilikal Tesfaye](https://www.linkedin.com/in/yilikaltesfayekebede/)
+With these steps, the installation instructions are tailored for the `web/fullstack/PatientPath` branch.
